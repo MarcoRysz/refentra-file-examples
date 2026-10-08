@@ -1,4 +1,13 @@
-# Why a PDF can stay almost the same size
+# Synthetic file examples and measured outputs
+
+These inspectable examples cover two different file-preparation problems:
+
+- [An image under 20 MB can still exceed Shopify's pixel limit](image-resize-shopify/README.md).
+  Synthetic input plus an actual downloaded PNG; fewer pixels can still mean more bytes.
+- [Why a PDF can stay almost the same size](#why-a-pdf-can-stay-almost-the-same-size).
+  Original PDFs and independently checked lossless/lossy examples below.
+
+## Why a PDF can stay almost the same size
 
 “Compress PDF” can mean cleaning the file structure or changing embedded images.
 Those operations can produce very different results. These examples let you
