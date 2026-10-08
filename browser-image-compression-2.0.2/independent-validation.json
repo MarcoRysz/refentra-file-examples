@@ -1,0 +1,32 @@
+[
+  {
+    "file": "fixture.png",
+    "size": 82643,
+    "sha256": "0e98a4cf34fc49519a6d5f8a362ed3c5f87fba33c9a5e9e16c4b0772ed38f014",
+    "format": "PNG",
+    "width": 6000,
+    "height": 4000,
+    "mode": "RGB",
+    "signature": "89504e470d0a1a0a0000000d49484452"
+  },
+  {
+    "file": "worker-output.bin",
+    "size": 11160,
+    "sha256": "9c745420586f056ebedadd6b11052273e080c67c208868ba501aa6c4bda69802",
+    "format": "WEBP",
+    "width": 6000,
+    "height": 4000,
+    "mode": "RGB",
+    "signature": "52494646902b00005745425056503858"
+  },
+  {
+    "file": "main-output.bin",
+    "size": 11160,
+    "sha256": "9c745420586f056ebedadd6b11052273e080c67c208868ba501aa6c4bda69802",
+    "format": "WEBP",
+    "width": 6000,
+    "height": 4000,
+    "mode": "RGB",
+    "signature": "52494646902b00005745425056503858"
+  }
+]

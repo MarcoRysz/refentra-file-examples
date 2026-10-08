@@ -1,9 +1,11 @@
 # Synthetic file examples and measured outputs
 
-These inspectable examples cover two different file-preparation problems:
+These inspectable examples cover three different file-preparation problems:
 
 - [An image under 20 MB can still exceed Shopify's pixel limit](image-resize-shopify/README.md).
   Synthetic input plus an actual downloaded PNG; fewer pixels can still mean more bytes.
+- [Small PNG conversion to WebP in browser-image-compression 2.0.2](browser-image-compression-2.0.2/README.md).
+  A pinned Chromium reproduction, successful worker result, control and actual files.
 - [Why a PDF can stay almost the same size](#why-a-pdf-can-stay-almost-the-same-size).
   Original PDFs and independently checked lossless/lossy examples below.
 

@@ -1,0 +1,57 @@
+{
+  "time": "2026-10-08T14:35:51.385Z",
+  "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+  "packageVersion": "2.0.2",
+  "options": {
+    "maxSizeMB": 0.156,
+    "fileType": "image/webp",
+    "useWebWorker": true,
+    "alwaysKeepResolution": true,
+    "maxIteration": 50,
+    "libURL": "http://127.0.0.1:61390/package/dist/browser-image-compression.js"
+  },
+  "input": {
+    "type": "image/png",
+    "size": 82643,
+    "sha256": "0e98a4cf34fc49519a6d5f8a362ed3c5f87fba33c9a5e9e16c4b0772ed38f014",
+    "width": 6000,
+    "height": 4000,
+    "signatureHex": "89504e470d0a1a0a0000000d49484452"
+  },
+  "runs": [
+    {
+      "useWebWorker": true,
+      "workerConstructed": 1,
+      "workerFileMessages": 1,
+      "workerErrors": [],
+      "identityEqual": false,
+      "type": "image/webp",
+      "size": 11160,
+      "sha256": "9c745420586f056ebedadd6b11052273e080c67c208868ba501aa6c4bda69802",
+      "width": 6000,
+      "height": 4000,
+      "signatureHex": "52494646902b00005745425056503858"
+    },
+    {
+      "useWebWorker": false,
+      "workerConstructed": 0,
+      "workerFileMessages": 0,
+      "workerErrors": [],
+      "identityEqual": false,
+      "type": "image/webp",
+      "size": 11160,
+      "sha256": "9c745420586f056ebedadd6b11052273e080c67c208868ba501aa6c4bda69802",
+      "width": 6000,
+      "height": 4000,
+      "signatureHex": "52494646902b00005745425056503858"
+    }
+  ],
+  "webpCanvasCapability": {
+    "type": "image/webp",
+    "size": 76,
+    "sha256": "5e6130fe0f989db47a5df73cfa4be63500c766f5953fde629693431abf0a02e6",
+    "width": 2,
+    "height": 2,
+    "signatureHex": "52494646440000005745425056503858"
+  }
+}

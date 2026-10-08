@@ -1,0 +1,64 @@
+{
+  "archive": "browser-image-compression-2.0.2-repro.zip",
+  "bytes": 36772,
+  "sha256": "6a95a56a8557abb1c8d74bb7c1fba92197d52c4535b019f8a92e0c1d6ddb48fe",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 3385,
+      "sha256": "78149d06cbd6f911f74b729bc044a5284257bff3eb0b158a13b67b955678c5e1"
+    },
+    {
+      "path": "index.html",
+      "bytes": 395,
+      "sha256": "6ab314b75dec9378bc9f47a3b9f97d97a26c36c9ce6f41f5526eb7e9ed084e87"
+    },
+    {
+      "path": "harness.js",
+      "bytes": 2393,
+      "sha256": "6f6a4913c26fdc4b1aadc8626d2a00eabedfd7b7e89239c20cd23c8c6cf915c7"
+    },
+    {
+      "path": "server.mjs",
+      "bytes": 3921,
+      "sha256": "62c4173b25377f79c31743c9bc20860540c5a9b9c8e71bb8e6f6bc7f49e815ec"
+    },
+    {
+      "path": "fixture.png",
+      "bytes": 82643,
+      "sha256": "0e98a4cf34fc49519a6d5f8a362ed3c5f87fba33c9a5e9e16c4b0772ed38f014"
+    },
+    {
+      "path": "results.json",
+      "bytes": 1713,
+      "sha256": "c8d9e86556f83460e20e837c56a8a5ead7880bdf448c9f57a22011d063b0ffda"
+    },
+    {
+      "path": "independent-validation.json",
+      "bytes": 851,
+      "sha256": "1e991427156dbb39895e6dd58999151f4bd65edf4ba4d3c8f613f52d517eaf9c"
+    },
+    {
+      "path": "worker-output.bin",
+      "bytes": 11160,
+      "sha256": "9c745420586f056ebedadd6b11052273e080c67c208868ba501aa6c4bda69802"
+    },
+    {
+      "path": "main-output.bin",
+      "bytes": 11160,
+      "sha256": "9c745420586f056ebedadd6b11052273e080c67c208868ba501aa6c4bda69802"
+    },
+    {
+      "path": "package/dist/browser-image-compression.js",
+      "bytes": 57069,
+      "sha256": "c6713a21756570af4c230f706faac4f0187845928bd14fd5910210d1cdc6fb87"
+    },
+    {
+      "path": "package/LICENSE",
+      "bytes": 1068,
+      "sha256": "6aeb9cd1549315900b91eea89819e509818c733ea3040d59d67041c168703694"
+    }
+  ],
+  "source": "actual recorded browser test; intact MIT library bundle; fixed local-only harness",
+  "serverSmokeChecks": 31
+}
