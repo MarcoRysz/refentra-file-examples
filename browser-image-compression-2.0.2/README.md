@@ -1,8 +1,7 @@
-# Download the bounded reproduction
-
-[Download ZIP](browser-image-compression-2.0.2-repro.zip) (36772 bytes). SHA-256: 6a95a56a8557abb1c8d74bb7c1fba92197d52c4535b019f8a92e0c1d6ddb48fe.
-
 # browser-image-compression 2.0.2: small PNG still converted in Chromium
+
+[Download the full reproduction ZIP](browser-image-compression-2.0.2-repro.zip) (36772 bytes). SHA-256: 6a95a56a8557abb1c8d74bb7c1fba92197d52c4535b019f8a92e0c1d6ddb48fe.
+
 
 This is a bounded, independent reproduction for
 [issue #241](https://github.com/Donaldcwl/browser-image-compression/issues/241). It does not test
