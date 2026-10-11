@@ -6,8 +6,8 @@ These inspectable examples cover three different file-preparation problems:
   Synthetic input plus an actual downloaded PNG; fewer pixels can still mean more bytes.
 - [Small PNG conversion to WebP in browser-image-compression 2.0.2](browser-image-compression-2.0.2/README.md).
   A pinned Chromium reproduction, successful worker result, control and actual files.
-- [Why a PDF can stay almost the same size](#why-a-pdf-can-stay-almost-the-same-size).
-  Original PDFs and independently checked lossless/lossy examples below.
+- [Why a PDF can stay almost the same size](pdf-compression-explainer/README.md).
+  A measured diagram, original PDFs and independently checked lossless/lossy examples below.
 
 ## Why a PDF can stay almost the same size
 

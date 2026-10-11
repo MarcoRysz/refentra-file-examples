@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1500" viewBox="0 0 1000 1500" role="img" aria-labelledby="title desc">
+  <title id="title">PDF still too large? Why lossless can barely change the size</title>
+  <desc id="desc">A measured synthetic photo-PDF example compares original, lossless, and balanced compression. Lossless saved 519 bytes; balanced reduced the file to 336,783 bytes while changing photo encoding.</desc>
+  <defs>
+    <style>
+      .sans { font-family: Arial, Helvetica, sans-serif; }
+      .navy { fill: #142D35; }
+      .green { fill: #1F7767; }
+      .muted { fill: #52666A; }
+      .rule { stroke: #CBD3C9; stroke-width: 2; }
+    </style>
+  </defs>
+  <rect width="1000" height="1500" fill="#F7F4EC"/>
+
+  <text x="72" y="76" class="sans green" font-size="18" font-weight="700" letter-spacing="3">REFENTRA  /  FILE NOTES</text>
+  <text x="72" y="174" class="sans navy" font-size="65" font-weight="700" letter-spacing="-1.5">PDF still too large?</text>
+  <text x="74" y="235" class="sans navy" font-size="39" font-weight="400" letter-spacing="-0.6">Why lossless can barely change the size</text>
+  <line x1="72" y1="278" x2="928" y2="278" class="rule"/>
+
+  <text x="72" y="334" class="sans navy" font-size="22" font-weight="700">ONE SYNTHETIC PHOTO PDF</text>
+  <text x="72" y="367" class="sans muted" font-size="22">One original. Two measured outputs.</text>
+
+  <rect x="58" y="397" width="884" height="500" rx="22" fill="#FFFFFF" stroke="#DCE1D8" stroke-width="2"/>
+
+  <text x="90" y="448" class="sans navy" font-size="18" font-weight="700" letter-spacing="1.5">FILE SIZE</text>
+  <text x="90" y="493" class="sans navy" font-size="22" font-weight="700">Original</text>
+  <text x="90" y="526" class="sans muted" font-size="27">4,397,793 bytes</text>
+  <rect x="90" y="544" width="760" height="24" rx="12" fill="#E7EBE4"/>
+  <rect x="90" y="544" width="760" height="24" rx="12" fill="#142D35"/>
+
+  <text x="90" y="618" class="sans navy" font-size="22" font-weight="700">Lossless</text>
+  <text x="90" y="651" class="sans muted" font-size="27">4,397,274 bytes  ·  just 519 bytes saved</text>
+  <rect x="90" y="669" width="760" height="24" rx="12" fill="#E7EBE4"/>
+  <rect x="90" y="669" width="759.91" height="24" rx="12" fill="#1F7767"/>
+
+  <text x="90" y="743" class="sans navy" font-size="22" font-weight="700">Balanced</text>
+  <text x="90" y="776" class="sans muted" font-size="27">336,783 bytes  ·  changes photo encoding</text>
+  <rect x="90" y="794" width="760" height="24" rx="12" fill="#E7EBE4"/>
+  <rect x="90" y="794" width="58.19" height="24" rx="12" fill="#1F7767"/>
+  <text x="90" y="858" class="sans muted" font-size="16">Bars show file size relative to the original (100%).</text>
+
+  <text x="72" y="957" class="sans navy" font-size="26" font-weight="700">Why the difference?</text>
+  <rect x="72" y="982" width="411" height="136" rx="16" fill="#E9EEE7"/>
+  <text x="98" y="1025" class="sans green" font-size="19" font-weight="700" letter-spacing="1">LOSSLESS</text>
+  <text x="98" y="1060" class="sans navy" font-size="21">Cleans file structure.</text>
+  <text x="98" y="1090" class="sans navy" font-size="21">Embedded photo data stays.</text>
+  <rect x="501" y="982" width="427" height="136" rx="16" fill="#E9EEE7"/>
+  <text x="527" y="1025" class="sans green" font-size="19" font-weight="700" letter-spacing="1">BALANCED</text>
+  <text x="527" y="1060" class="sans navy" font-size="21">Changes embedded photos.</text>
+  <text x="527" y="1090" class="sans navy" font-size="21">Image quality may change.</text>
+
+  <rect x="72" y="1140" width="856" height="94" rx="14" fill="#F0EBDD"/>
+  <text x="96" y="1178" class="sans navy" font-size="18" font-weight="700">A DIFFERENT 1,990-BYTE TEXT/VECTOR PDF</text>
+  <text x="96" y="1208" class="sans muted" font-size="18">had no smaller lossless output.</text>
+
+  <text x="72" y="1284" class="sans navy" font-size="22" font-weight="700">Keep the original. Inspect every page.</text>
+  <text x="72" y="1318" class="sans navy" font-size="21">Try Balanced when image changes are acceptable.</text>
+  <line x1="72" y1="1350" x2="928" y2="1350" class="rule"/>
+
+  <text x="72" y="1387" class="sans navy" font-size="16" font-weight="700">One synthetic example. Results vary. No fixed-size guarantee.</text>
+  <text x="72" y="1420" class="sans green" font-size="16" font-weight="700">Refentra  ·  refentra.com/tools/compress-pdf/</text>
+  <text x="72" y="1450" class="sans muted" font-size="15">AI-assisted diagram, measured outputs.</text>
+</svg>
